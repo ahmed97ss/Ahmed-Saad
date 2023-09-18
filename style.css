@@ -1,0 +1,351 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+}
+
+header {
+    background-image: url(blue_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-position-y: -100px;
+
+}
+
+nav {
+    height: 150px;
+    margin: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    text-decoration-line: none;
+    color: rgba(0, 0, 0, 0.694);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    font-style: normal;
+
+}
+
+nav button {
+    background-color: white;
+    border: none;
+    padding: 5px 25px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.navl {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 512px;
+
+}
+
+.nl {
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    transition: all 3s ease;
+
+
+
+
+}
+
+.nla :hover {
+    transform: translate(0, 1px);
+    border-bottom: darkmagenta 4px solid;
+
+}
+
+.fsec {
+    margin: auto;
+    width: 80%;
+    height: 535px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+
+
+}
+
+.fsecl h1 {
+    color: black;
+    font-size: 53px;
+    font-weight: 600;
+    font-family: 'Varela Round';
+    margin-top: 120px;
+    width: 560px;
+    margin-left: 35px;
+}
+
+.fsecl p {
+    color: #212529;
+    font-size: 27px;
+    font-weight: 100;
+    width: 560px;
+    margin-left: 35px;
+
+}
+
+.fsecr {
+    display: flex;
+    /* position: relative; */
+}
+
+.collection {
+    position: relative;
+    /* margin-top: -300px; */
+    margin-left: -400px;
+    /* display: flex; */
+    /* justify-items:right;  */
+}
+
+.ground {
+    position: absolute;
+    margin-top: -100px;
+    margin-left: -150px;
+}
+
+.cloud {
+    position: absolute;
+    margin-top: 320px;
+    margin-left: -20px;
+}
+
+.man {
+    position: absolute;
+    margin-top: -60px;
+
+}
+
+.waves {
+    /* position: absolute; */
+    margin-left: -400px;
+    margin-top: 150px;
+}
+
+.ssec {
+    margin: 100px auto;
+    width: 90%;
+    background-image: url(second_section_.png);
+    background-size: 65% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+    color: rgba(0, 0, 0, 0.562);
+
+
+}
+
+.ssec_pic {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+}
+
+.lpic {
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 90px;
+
+}
+
+.mpic {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 550px;
+
+}
+
+.rpic {
+    position: absolute;
+    margin-top: 460px;
+    margin-left: 850px;
+
+
+}
+
+.ltext {
+    margin-right: -150px;
+    text-align: center;
+    margin-left: -150px;
+}
+
+.mtext {
+    margin-right: -130px;
+    text-align: center;
+    margin-left: -130px;
+}
+
+.rtext {
+    margin-right: -150px;
+    text-align: center;
+    margin-inline-start: -150px;
+
+
+}
+
+.ssec p {
+    font-size: 20px;
+    font-weight: 350;
+}
+
+.ssec h2 {
+    font-weight: 600;
+}
+.why {
+    position: absolute;
+    margin-top: 460px;
+    margin-left: 70px;
+}
+.whytext {
+    position: absolute;
+    margin-top: -180px;
+    margin-left: 70px;
+    color: white;
+    
+}
+.whytext p{
+    font-size: 16px;
+}
+.whytext span {
+    font-size: 38px;
+}
+.thsec{
+    margin-top: 500px;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.562);
+    box-sizing: border-box;
+    
+}
+.thsec_pic{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: auto;
+    position: relative;
+
+}
+.thsec_mpic {
+    position: absolute;
+    margin-left: 300px;
+    margin-top: -100px;
+    
+}
+.thsec_icons {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    width: 40%;
+    margin: auto;
+    margin-top: -30px;
+}
+.thsec_text {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    box-sizing: border-box;
+    position: relative;
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 300px;
+}
+.footer {
+    background-image: url(fooooter.png);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position:center;
+    width: 100%;
+    height: 450px;
+    position: relative;
+    /* display: flex; */
+    /* flex-direction: column; */
+
+    /* margin-bottom: 500px; */
+    
+}
+.couple {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-between;
+    /* margin-top: 50px; */
+    align-items: bottom;
+    position: absolute;
+
+    
+}
+.store {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    align-items: flex-end;
+    position: relative;
+    color: black;
+    font-size: 10px;
+
+}
+
+.store div {
+    display: flex;
+    flex-direction: row;
+    /* position: absolute; */
+    margin: 150px 30px 0px 30px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 15px;
+
+}
+.store span {
+    font-size: 15px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.674);
+}
+.footer_icons{
+    position: absolute;
+    margin: 360px 150px 0px 150px;
+    /* width: 90%; */
+}
+.footer_icons img {
+    margin: 0px 5px;
+}
+.footer_links{
+    display: flex;
+    
+    position: absolute;
+    margin: 425px 110px 0px 110px;
+
+}
+.footer_links a {
+    color: white;
+    text-decoration: none;
+    margin: 0px 40px;
+    font-size: 18px;
+}
+
+
+
+
+
+    
+
+    
